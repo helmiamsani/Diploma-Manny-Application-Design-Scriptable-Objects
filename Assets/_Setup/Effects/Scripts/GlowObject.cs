@@ -42,10 +42,10 @@ public class GlowObject : MonoBehaviour
 		targetColor = glowColor;
 		enabled = true;
 	}
-
-	private void OnMouseExit()
+   
+    private void OnMouseExit()
 	{
-		targetColor = Color.black;
-		enabled = true;
+        targetColor = Color.black;
+        enabled = true;
 	}
 }
